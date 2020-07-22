@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  border-radius: 5px;
+  background-color: #b3b3b3;
+  padding: 20px;
+}
+code {
+  font-family: Consolas,"agency_fb";
+  color: crimson;
+  background-color: #f1f1f1;
+  padding: 2px;
+  font-size: 105%;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #000;
+}
+
+.topnav a {
+  float: left;
+  color: #F2F2F2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: cc0000;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #000000;
+  color: white;
+}
+</style>
+</head>
+<main>
+<style>
+body {
+  background-image: url('black.jpg');
+}
+</style>
+<section>
+<div class="topnav">
+  <a class="active" href="code.html">Home</a>
+  <a href="news.html">News</a>
+  <a href="contact.html">Contact</a>
+  <a href="about1.html">About</a>
+</div>
+</section>
+
+<section align="middle">
+<code>
+<h1 align="middle" style="font-size:300%;"> Contact me!</h1>
+</code>
+
+<div class="container">
+  <form>
+    <label id="name-label">Name</label>
+      <input type="text" id="name" placeholder="Enter your name" required> </input>
+    <br>
+    <label id="email-label">Email</label>
+      <input type="email" id="email" placeholder="Enter your email" required></input>
+    
+  <br>
+  <label for="dropdown">Select Your Country</label>
+    <select id="dropdown">
+      <option>India</option>
+      <option>America</option>
+    </select><br>
+
+<label for="query">Business Query</label>
+<input type="radio" id="query" name="reason" value="query"><br>
+    <label for="personal">Personal</label>
+<input type="radio" id="personal" name="reason" value="personal"><br>
+  <input type="textarea" placeholder="Remarks"></input> </form>
+<br><br>
+
+<input type="submit"></input>
+
+</form>
+</div>
+
+</main>
+
+</html>
