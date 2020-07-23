@@ -1,0 +1,53 @@
+body{
+background-image: url(black.jpg);
+font-family: helvetica,arial, san-serif;
+}
+
+a{
+text-decorations: none;
+color: red;
+}
+#container{
+background-color: white;
+width= 1366px;
+margin-left: auto;
+margin_right: auto;
+}
+
+#heading {
+background-color: #66CCFF;
+color: white;
+padding: 10px;
+text-align: center;
+}
+
+#content{
+padding: 10px;
+}
+
+#nav{
+background-color: #32cd32;
+width: 180px;
+float: left;
+
+}
+#nav ul{
+padding: 35px;
+}
+
+#main{
+width: 600px;
+float: right;
+}
+
+#footer{
+background-color: orange;
+padding: 10px;
+color: white;
+text-align: center;
+clear: both;
+}
+
+#nav .selected{ 
+font-weight: bold:;
+}
