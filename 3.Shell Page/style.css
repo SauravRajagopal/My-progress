@@ -1,0 +1,153 @@
+body{
+background-image: url(bluer.jpg);
+font-family: helvetica,arial, san-serif;
+}
+
+a{
+text-decorations: none;
+color: red;
+}
+#container{
+width: 1366px;
+margin-left: auto;
+margin-right: auto;
+}
+
+#heading {
+background-color: #0033cc;
+height: 48px;
+color: white;
+padding: 5m;
+text-align: center;
+}
+
+#content1{
+padding: 10px;
+width: 1200px;
+margin-left: auto;
+margin-right: auto;
+display: grid;
+grid-template-columns: 50% 50%;
+}
+#content11{
+background-color: #e6eeff;
+opacity: 0.7;
+font-weight: bold;
+float: left;
+}
+
+#content12{
+float right;
+}
+#content21{
+float: left;
+}
+
+#content22{
+background-color: #e6eeff;
+opacity: 0.7;
+font-weight: bold;
+float: left;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#content2{
+padding: 10px;
+width: 1200px;
+margin-left: auto;
+margin-right: auto;
+display: grid;
+grid-template-columns: 50% 50%;
+}
+}
+#nav ul{
+padding: 35px;
+}
+
+#main{
+width: 600px;
+float: right;
+}
+
+#footer{
+background-color: orange;
+padding: 10px;
+color: white;
+text-align: center;
+clear: both;
+}
+
+/* Add a black background color to the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #0033cc;
+  float: left;
+  
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: orange;
+  color: black;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+  background-color: #1a53ff;
+  color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+#heading {
+background-color: #000000;
+height: 48px;
+color: white;
+padding: 5m;
+text-align: center;
+}
+  .topnav a, .topnav input[type=text] {
+    float: left;
+    text-align: left;
+    width: 50%;
+    margin: 0;
+    
+}
+
+#hed{
+width: 50%
+}
+}
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+
+}
+
+ 
