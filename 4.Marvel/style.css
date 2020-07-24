@@ -1,0 +1,180 @@
+body{
+margin: 0;
+
+}
+#container{
+
+
+}
+#topbar{
+background: #e6f7ff;
+height: 26px;
+
+
+}
+#download{
+float: right;
+}
+#dimage{
+margin: 4px;
+display: inline-block;
+}
+#dmessage{
+margin: 4px;
+display: inline-block;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #ffffff;
+  float: right;
+  padding: 10px;
+
+margin-left: auto;
+margin-right: 100px;
+  
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  margin-top: 15px;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: Verdana;
+}
+
+
+}
+
+.topnav a.active {
+  background-color: #1a53ff;
+  color: white;
+}
+
+#bar{
+background: #eeeeee;
+}
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: 1px;
+  font-size: 17px;
+}
+#logo{
+ display: inline-block;
+float: left;
+}
+#searchbar{
+  background: #eeeeee;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+display: inline-block;
+}
+#menuitem{
+display: inline-block;
+}
+:root {
+  --mainColor: #99ddff;
+}
+
+a {
+  background:
+     linear-gradient(
+       to bottom, var(--mainColor) 0%,
+       var(--mainColor) 100%
+     );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+  color: #000;
+  text-decoration: none;
+  transition: background-size .5s;
+}
+
+a:hover {
+  background-size: 4px 50px;
+}
+#logo{
+float: left;
+margin-top: 25px;
+margin-right: 150px;
+}
+
+#content1{
+padding: 10px;
+width: 1200px;
+margin-left: auto;
+margin-right: auto;
+display: grid;
+grid-template-columns: 50% 50%;
+}
+#content11{
+background-color: #ffffff;
+opacity: 0.7;
+font-weight: bold;
+float: left;
+}
+
+#content12{
+float right;
+border: none;
+}
+#text1{
+margin: 130px;
+}
+#text2{
+margin: 130px;
+margin-top: 50px;
+
+}
+
+#content2{
+padding: 10px;
+width: 1200px;
+height: 200px;
+margin-left: 200px;
+margin-right: auto;
+display: grid;
+grid-template-columns: 50% 50%;
+}
+#content21{
+
+font-weight: bold;
+float: left;
+}
+
+#content22{
+float right;
+border: none;
+}
+.startbutton {
+  background-color: #00e6b8;
+  padding: 14px 40px;
+  height: 50px;
+  width: 100px
+  border: none;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#container2{
+background: #e6f7ff;
+height: 200px;
+
+}
+.center2{
+
+}
