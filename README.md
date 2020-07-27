@@ -1,2 +1,2 @@
 # My-progress
-This repository will bbe peridically update with projects with which can be use to view my my progress in learning
+This repository will be periodically updated with projects, which can be used to view my progress in learning HTML and CSS
